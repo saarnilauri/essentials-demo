@@ -19,8 +19,6 @@ export const Figure = ({ image, caption="" }) => {
 		configuredSanityClient,
 		image.asset
 	);
-
-  console.log(image, imageProps);
   
   return (
     <figure>
